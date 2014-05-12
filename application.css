@@ -1,0 +1,33 @@
+/* gets rid of spacing between rows of squares */
+body {
+  line-height: 0;
+  font-family:arial;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+h1, p {
+  text-align: center
+}
+
+.square {
+  background-color:#E8E8E8;
+  display: inline-block;
+}
+
+/* used for gradient button */
+.grid {
+  background-color: black;
+}
+
+button > a {
+  text-decoration:none;
+  color: black;
+}
+
+
